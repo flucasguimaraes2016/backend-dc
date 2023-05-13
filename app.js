@@ -10,6 +10,9 @@ var userRouter = require("./routes/users")
 var carroCompras = require("./routes/carrinhos")
 var app = express();
 
+var express = require('express')
+app.user(cors())
+
 const db = require('./db')
 db.main()
 console.log('app.js', db.usuario)

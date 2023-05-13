@@ -12,7 +12,7 @@ var app = express();
 
 var express = require('express')
 var cors = require('cors')
-app.user(cors())
+app.use(cors())
 
 const db = require('./db')
 db.main()

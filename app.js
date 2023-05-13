@@ -11,6 +11,7 @@ var carroCompras = require("./routes/carrinhos")
 var app = express();
 
 var express = require('express')
+var cors = require('cors')
 app.user(cors())
 
 const db = require('./db')
